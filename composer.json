@@ -1,0 +1,21 @@
+{
+    "name": "handsomedeveloper/first-package",
+    "description": "learn to make package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jie She",
+            "email": "handsomedeveloperjie@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "HandsomeDeveloper\\FirstPackage\\" : "src"
+        }
+    }
+}
